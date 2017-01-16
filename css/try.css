@@ -1,0 +1,314 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans|Pacifico|Dancing+Script|Josefin+Slab|Poiret+One|Yellowtail|Kaushan+Script|Old+Standard+TT:400,400italic|Great+Vibes|Playball|Tangerine|Alex+Brush|Calligraffitti|Pompiere|Gilda+Display&subset=latin,cyrillic);
+.navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-family: 'Segoe UI Light', serif;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    background: #FFFDFD;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #000 !important;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-brand>img{
+    padding: 3px;
+    height: 100%;
+    width: auto;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #DFDFDF !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #000 !important;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.about {
+    background-color: #fbfbfb;
+    font-family: 'Segoe UI Light', serif;
+    text-align: center;
+}
+#header {
+    font-size: 20px;
+}
+#about-extend {
+    text-align: left;
+}
+#about-extend #onas{
+    text-align: center;
+}
+#about-extend .row p {
+    font-size: 115%;
+ }
+#line {
+    background-color: #fbfbfb;
+    background-position: center;
+    background-image: url("../line.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+}
+
+#wspolpraca {
+    font-size: 20px;
+}
+.about h2 {
+    color: #393c3d;
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+}
+
+#details {
+    margin-bottom: 5%;
+}
+
+#contact {
+    font-family: 'Segoe UI Light', serif;
+    background-color: #f7f7f7;
+}
+
+.jumbotron {
+    background-image:url("../topaz_images/lazienka.JPG");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container {
+    background: rgba(193, 193, 193, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top:100px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.jumbotron p {
+    font-size: 25px;
+    font-family: 'Segoe UI Light', serif;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron a {
+    font-size: 18px;
+    font-family: 'Segoe UI Light', serif;
+}
+
+.learn-more {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI Light', serif;
+}
+
+.learn-more h3 {
+    color: #393c3d;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*------------------*/
+.neighborhood-guides {
+    background-color: #DFDFDF
+
+;
+    font-family: 'Segoe UI Light', serif ;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+.neighborhood-guides p{
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:30px;
+    width: 100%;
+    background-color: #efefef;
+    font-family: 'Segoe UI Light', serif ;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.footer h5, h6 {
+    text-align: center;
+}
+
+#kontakt {
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact_subtitle {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 120%;
+}
+
+body {
+    padding-top: 0;
+    background-color: #F0E6F7;
+}
+
+#image3 {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+#image4 {
+    height: 100%;
+    width: 100%;
+}
+
+h4 {
+    margin: 20px 10px 10px;
+}
+p {
+    margin: 10px;
+}
+
+#carousel-custom {
+    margin: 20px auto;
+    max-width: 900px;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+
+body {margin:0;}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #c3bdbb;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:1024px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
+
+#googleMap {
+    height: 400px;
+    width: 100%;
+}
+
+#clickToSee {
+    font-size: 25px;
+    color: #35a2fb;
+}
+
